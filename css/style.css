@@ -1544,7 +1544,7 @@ ul {
    Admission Open Section
    ========================================= */
 .admission-section {
-    padding: 100px 0;
+    padding: 60px 0;
     background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
     /* Deep Sea Gradient */
     color: #fff;
@@ -2858,7 +2858,7 @@ ul {
 /* Student Feedback Section (Premium Redesign) */
 .feedback-section {
     position: relative;
-    padding: 100px 0;
+    padding: 60px 0;
     overflow: hidden;
     background: radial-gradient(circle at 70% 30%, #fdfbf7 0%, #f7f7f7 100%);
 }
@@ -3871,7 +3871,7 @@ ul {
    Dashboard Section (New Quick Info)
    ========================================= */
 .dashboard-section {
-    padding: 80px 0;
+    padding: 70px 0;
     background: #f4f6f8;
     position: relative;
     border-top: 1px solid #ebebeb;
@@ -4103,7 +4103,7 @@ ul {
    Events Visual Section (Iteration 2)
    ========================================= */
 .events-visual-section {
-    padding: 100px 0;
+    padding: 60px 0;
     background: #f9f9f9;
 }
 
@@ -4492,7 +4492,7 @@ ul {
    Academics Section (Horizontal Accordion)
    ========================================= */
 .academics-accordion-section {
-    padding: 80px 0;
+    padding: 70px 0;
     background: #fdfdfd;
     overflow: hidden;
 }
@@ -4545,7 +4545,7 @@ ul {
 .acc-content {
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    left: 20px;
     right: 30px;
     color: white;
     z-index: 2;
@@ -4574,7 +4574,7 @@ ul {
 }
 
 .acc-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: 10px;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
