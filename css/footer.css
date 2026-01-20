@@ -1,0 +1,241 @@
+/* =========================================
+   FOOTER STYLES (Clean & Modern)
+   ========================================= */
+
+.main-footer {
+    background-color: #1e293b;
+    /* Deep Slate Blue - Professional & Modern */
+    color: #e2e8f0;
+    /* Soft White */
+    font-family: 'Rubik', sans-serif;
+    padding-top: 60px;
+    margin-top: 0;
+    position: relative;
+}
+
+.footer-overlay {
+    /* Kept for subtle texture if needed, currently transparent */
+    display: none;
+}
+
+.footer-top {
+    padding-bottom: 40px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+    gap: 40px;
+}
+
+/* Brand Column */
+.col-brand .footer-logo-img {
+    height: 80px;
+    width: auto;
+    margin-bottom: 20px;
+    /* filter: brightness(0) invert(1); */
+    opacity: 0.95;
+}
+
+.footer-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #94a3b8;
+    /* Muted Slate */
+    margin-bottom: 25px;
+    max-width: 300px;
+}
+
+/* Social Icons - Clean Circle Outline */
+.social-links-row {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links-row a {
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #cbd5e1;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    background: transparent;
+}
+
+.social-links-row a:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #1e293b;
+    /* Dark icon on white bg */
+    transform: translateY(-2px);
+}
+
+/* Headings - Simple & Bold */
+.footer-heading {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+/* Links List - Clean, no heavy effects */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+    display: block;
+}
+
+.footer-links a:hover {
+    color: #38bdf8;
+    /* Sky Blue Accent */
+    padding-left: 3px;
+}
+
+/* Contact Info - Minimalist */
+.contact-info .contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 18px;
+    color: #e2e8f0;
+}
+
+.contact-item i {
+    color: #38bdf8;
+    /* Sky Blue Icon */
+    font-size: 1rem;
+    margin-top: 3px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #94a3b8;
+}
+
+/* App Buttons - Flat & Clean */
+.app-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.app-btn {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    /* Less rounded */
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.app-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.app-btn i {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.app-btn .app-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.app-text small {
+    font-size: 0.6rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+}
+
+.app-text span {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Footer Bottom - Distinguished */
+.footer-bottom {
+    background-color: #0f172a;
+    /* Darker Slate */
+    padding: 20px 0;
+    font-size: 0.85rem;
+    border-top: none;
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #64748b;
+}
+
+.footer-legal {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-legal a {
+    color: #64748b;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer-legal a:hover {
+    color: #fff;
+}
+
+.footer-legal .sep {
+    color: #334155;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
